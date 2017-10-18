@@ -8,10 +8,16 @@ body {
 }
 
 h1 {
-  padding-top: 10px;
   color: #0F1626;
+  align: left;
+  margin-left: 40px;
+
 }
 
+.ribbon {
+  padding-top: 10px;
+  margin-left: 40px;
+}
 /*forked ends of ribbon navigation bar*/
 .ribbon:after, .ribbon:before {
   margin-top:0.5em;
@@ -99,7 +105,7 @@ h1 {
     padding: 40px;
 }
 
-.tz-gallery .lightbox img {
+.tz-gallery .large img {
     width: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -108,13 +114,38 @@ h1 {
 }
 
 
-.tz-gallery .lightbox img:hover {
+.big img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.little img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
 .tz-gallery img {
     border-radius: 4px;
+}
+
+.little img {
+    width: 45%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 0px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.big img {
+  width: 95%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 0px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 .baguetteBox-button {
