@@ -1,17 +1,22 @@
 body {
     background-color: white;
     min-height: 100vh;
-    font: normal 16px sans-serif;
+    font: 16px Georgia;
     padding: 0px 0;
     width: 100%;
-    margin: 0 auto;
 }
 
 h1 {
   color: #0F1626;
-  align: left;
-  margin-left: 40px;
+  margin-left: 0px;
+  font: Georgia;
 
+}
+
+h2 {
+  text-align: center;
+  margin-left: 0px;
+  font: 16px Georgia;
 }
 
 .ribbon {
@@ -89,7 +94,7 @@ h1 {
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font: Georgia;
     font-weight: bold;
 }
 
@@ -139,7 +144,7 @@ h1 {
 }
 
 .big img {
-  width: 95%;
+  width: 94%;
   margin-bottom: 30px;
   margin-top: 30px;
   margin-right: 30px;
